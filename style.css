@@ -1,0 +1,30 @@
+body{
+	background-color: white;
+	color: black;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.columnsheet {
+  float: left;
+  width: 33.33%;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.rowsheet::after {
+  content: "";
+  clear: both;
+  display: table;
+}
